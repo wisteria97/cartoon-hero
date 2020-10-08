@@ -1,86 +1,30 @@
-body{
+/* elements */
+body {
+	max-width: 100%;
 	margin: 0;
 }
-header{
+
+header {
 	text-align: center;
-	max-width: 100%;
-	padding: 50px;
-	margin-top: 50px;
-}
-
-header h1{
-	font-family: Chihaya Jyun;
-	font-size: 75px;
 	margin: 0;
 }
 
-h2 {
-	font-family: Raleway;
-	font-size: ;
+header h1 {
+	font-family: Chihaya Jyun;
+	font-size: 80px;
+	margin: 0;
 }
 
-main {
-	margin: 50px;
-	padding: 0 50px;
-	max-width: 100%;
-}
-
-p {
-	font-family: Gill Sans;
-	font-size: 18px;
-}
-
-ol {
+header div {
 	font-family: Raleway;
 	font-size: 16px;
-	line-height: 1.6;
 }
 
-a {
-	color: #2EDDCD;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #84F5EA;
-	transition: 0.2s;
-}
-
-footer {
-	position: relative;
-	bottom: 0;
-	margin-left: 15px;
-}
-
-/* text styles */
-.subtitle {
-	font-size: 17px;
+/* text styles*/
+.Raleway {
 	font-family: Raleway;
 }
 
-.bold {
-	text-transform: bold;
-	color: #41D49E;
-}
-
-.namelink {
-	font-family: Chiyaha Jyun;
-}
-
-.footer {
-	color: lightgrey;
-	font-size: 8px;
-	font-family: Raleway;
-}
-
-/* positioning */
-.align {
-	float: left;
-	margin: 25px;
-	padding: 15px;
-}
-
-.characters {
-	max-width: 200px;
-	max-height: 200px;
+.emphasize {
+	color: mediumaquamarine;
 }
