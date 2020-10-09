@@ -1,10 +1,11 @@
 body {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 main {
-	max-width: 750px;
+	width: 750px;
+	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -30,16 +31,16 @@ h2 {
 	font-size: 48px;
 	padding-bottom: 10px;
 	margin-bottom: 5px;
-	padding-top: 20px;
-	margin-top: 10px;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 h3 {
 	font-family: Chihaya Jyun;
 	font-size: 38px;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 0;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 0;
 	text-align: center;
 }
@@ -48,6 +49,8 @@ p {
 	font-family: Hiragino Sans;
 	font-size: 16px;
 	line-height: 1.5em;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 li {
@@ -60,8 +63,10 @@ footer {
 	font-family: Raleway;
 	font-size: 10px;
 	padding-bottom: 10px;
-	padding-top: 50px;
+	padding-top: 70px;
 	margin-bottom: 10px;
+	padding-left: 10px;
+	margin-left: 10px;
 	position: relative;
 }
 
@@ -78,7 +83,7 @@ a {
 }
 
 a:hover {
-	color: white;
+	color: #BEFCEC;
 	transition: 0.3s;
 }
 
@@ -89,8 +94,8 @@ a:visited {
 
 hr {
 	border-top: 0.1px #D6D6D6;
-	margin-bottom: 50px;
-	margin-top: 50px
+	margin-bottom: 70px;
+	margin-top: 70px
 }
 
 
@@ -120,8 +125,8 @@ hr {
 }
 
 .lesstoppad {
-	padding-top: 5px;
-	margin-top: 5px;
+	padding-top: 20px;
+	margin-top: 10px;
 }
 
 .centerimg {
@@ -135,5 +140,3 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.
