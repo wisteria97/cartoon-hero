@@ -40,10 +40,8 @@ h2 {
 h3 {
 	font-family: Chihaya Jyun;
 	font-size: 38px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 10px 20px;
+	margin: 10px 10px;
 	text-align: center;
 }
 
@@ -55,17 +53,22 @@ p {
 	padding-top: 25px;
 }
 
-ul {
+ol {
 	background-color: #FAED95;
 	padding: 40px;
 }
 
-li {
+ol li {
 	font-family: Caviar Dreams;
 	font-size: 18px;
 	line-height: 2.5em;
 	margin-left: 25px;
 	margin-right: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 footer {
