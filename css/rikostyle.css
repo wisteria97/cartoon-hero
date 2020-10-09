@@ -1,0 +1,139 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+main {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Text elements */
+header {
+	text-align: center;
+}
+
+header img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-family: Chihaya Jyun;
+	font-size: 80px;
+	line-height: 0.5em;
+}
+
+h2 {
+	font-family: Datalegreya;
+	font-size: 48px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+h3 {
+	font-family: Chihaya Jyun;
+	font-size: 38px;
+	padding-top: 5px;
+	padding-bottom: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+p {
+	font-family: Hiragino Sans;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+li {
+	font-family: Caviar Dreams;
+	font-size: 18px;
+	line-height: 2.5em;
+}
+
+footer {
+	font-family: Raleway;
+	font-size: 10px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+/* Visual elements */
+
+main img {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+a {
+	text-decoration: none;
+	color: #20DBBC;
+}
+
+a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+a:visited {
+	text-decoration: none; 
+}
+
+
+hr {
+	border-top: 0.1px #D6D6D6;
+	margin-bottom: 50px;
+	margin-top: 50px
+}
+
+
+/* text stylization */
+
+.Raleway {
+	font-family: Raleway;
+}
+
+.subtitle {
+	font-size: 18px;
+}
+
+.emphasis {
+	color: #33E19F;
+}
+
+.turq {
+	color: #20DBBC;
+}
+
+/* positioning */
+
+.padcharimg {
+	padding-top: 50px;
+	margin-top: 20px;
+}
+
+.lesstoppad {
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.narrow {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.

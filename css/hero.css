@@ -7,6 +7,7 @@ body {
 header {
 	text-align: center;
 	margin: 0;
+	padding-bottom: 75px;
 }
 
 header h1 {
@@ -20,11 +21,53 @@ header div {
 	font-size: 16px;
 }
 
+main h2 {
+	font-family: Raleway;
+	font-size: 30px;
+}
+
 /* text styles*/
 .Raleway {
 	font-family: Raleway;
 }
 
+.Chihaya {
+	font-family: Chihaya Jyun;
+}
+
 .emphasize {
 	color: mediumaquamarine;
+}
+
+/* Header 2 About Riko size adjustment */
+.aboutriko {
+	font-size: 35px;
+}
+
+/* positioning */
+.center {
+	margin: auto;
+	width: 80%;
+}
+
+.centerimg {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-right: 25px;
+}
+
+.leftimg {
+	display: flex;
+	align-items: top;
+	float: left;
+
+}
+
+.centertext {
+	text-align: center;
+}
+
+.block {
+	display: block;
 }
